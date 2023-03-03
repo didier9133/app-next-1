@@ -14,6 +14,7 @@ class Database {
 
   async getById(id: string): Promise<TProduct | null> {
     if (!Object.prototype.hasOwnProperty.call(allData, id)) {
+      console.log('avocado no existe')
       return null
     }
 
