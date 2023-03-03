@@ -11,6 +11,6 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   )
 }
 
-//providers
+
 //layout
 //props adicionales
